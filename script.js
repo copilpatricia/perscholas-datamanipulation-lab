@@ -64,7 +64,7 @@ console.log("===== Math Problems =====");
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 
 let isDivisible = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
-console.log(`The statement is ${isDivisible}.`);
+console2.log(`The statement is ${isDivisible}.`);
 
 console.log("==========");
 // Check if the first number is larger than the last. Cache the result in a variable.
@@ -90,7 +90,7 @@ console.log(result);
 console.log("==========");
 
 // Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
-let isOver25True = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
+let isOver25True = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 console.log(isOver25True);
 
 console.log("===== Practical Math =====");
