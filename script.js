@@ -64,7 +64,7 @@ console.log("===== Math Problems =====");
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 
 let isDivisible = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
-console2.log(`The statement is ${isDivisible}.`);
+console.log(`The statement is ${isDivisible}.`);
 
 console.log("==========");
 // Check if the first number is larger than the last. Cache the result in a variable.
